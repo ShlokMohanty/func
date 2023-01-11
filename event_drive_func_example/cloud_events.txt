@@ -1,0 +1,10 @@
+specs for describing event data in a common way 
+simplify event declaration and delivery across services, platforms 
+Knative eventing :
+is a collectionof APIs that enable to use an event driven architecture 
+with your apps 
+APIs could be used to create components that route events from event producers to event consumers 
+known as sinks that receive events 
+Sinks can also be configured to respond to HTTP requests by sending a response event 
+Knative eventing uses standard HTTP POST requests to send and receive events between event producers 
+and sinks.
